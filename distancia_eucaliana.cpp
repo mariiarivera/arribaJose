@@ -45,13 +45,6 @@ void distancia_euclidiana() {
         }
     }
 
-    // Mostrar todas las distancias
-    cout << "\nDistancias calculadas:\n";
-    for (size_t i = 0; i < distancias.size(); i++) {
-        cout << "Distancia " << i + 1 << ": " << distancias[i] << endl;
-    }
-
-    // Mostrar distancia mínima
     cout << "\nLa distancia mínima es: " << distancia_minima 
          << " entre los puntos " << punto1_min << " y " << punto2_min << endl;
 }
