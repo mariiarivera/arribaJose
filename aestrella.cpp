@@ -48,7 +48,7 @@ vector<string> AStar(string start, string goal,
                 camino.push_back(actual);
                 actual = padre[actual];
             }
-            reverse(camino.begin(), camino.end()); // 👈 Aquí usamos reverse
+            reverse(camino.begin(), camino.end()); 
             return camino;
         }
 
